@@ -1,0 +1,22 @@
+.footer__line-link {
+    text-decoration: none;
+    margin: 0 18px 0 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 767px) {
+    .footer__line-link {
+        font-size: 24px;
+        line-height: 24px;
+        /* identical to box height, or 100% */
+        padding: 0 0 32px 0;
+        display: block;
+    }
+}
+
+.footer__line-link:hover {
+    opacity: 0.8;
+    transition: 0.3s ease;
+}

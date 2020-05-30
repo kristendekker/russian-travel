@@ -1,0 +1,23 @@
+.cover__background {
+    background-size: cover;
+    min-height: 740px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1275px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media all and (max-width: 1025px) {
+    .cover__background {
+        min-height: 480px;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .cover__background {
+        min-height: 200px;
+    }
+}
