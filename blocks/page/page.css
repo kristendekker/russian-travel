@@ -1,25 +1,6 @@
 .page {
-    font-family: Inter;
+    margin: auto;
+    font-family:'Inter', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
     background-color: #2A2C2F;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 320px){
-    .page {
-        max-width: 320px;
-        min-width: 186px;
-}
-    }
-
-@media screen and (max-width: 768px){
-    .page {
-        max-width: 769px;
-        min-width: 321px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .page {
-        max-width: 1024px;
-    }
 }

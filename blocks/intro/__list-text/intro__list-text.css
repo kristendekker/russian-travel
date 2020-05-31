@@ -1,8 +1,6 @@
-.intro__list {
-    margin: 32px auto 0 0;
-    list-style: none;
-    padding: 0;
+.intro__list-text {
     color: #FFFF;
+    margin: 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 700;
