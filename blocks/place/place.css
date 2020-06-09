@@ -7,10 +7,11 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-    width:100%;
+    max-width: 100%;
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    min-height: 0vw;
     grid-column-gap: 40px;
     grid-row-gap: 48px;
     grid-template-areas:
@@ -24,7 +25,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
     .place {
         grid-column-gap: 28px;
     }

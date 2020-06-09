@@ -8,9 +8,10 @@
     position: relative;
     background-image: url('../../../images/__background.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     padding: 20% 0;
+    width: 100%;
 }
 
 .cover__overlay::before {
@@ -47,8 +48,3 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    .cover__overlay {
-        padding: 13% 0;
-    }
-}
